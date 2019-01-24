@@ -1,0 +1,97 @@
+/* ISL styling */
+
+.islpronto {
+	position: fixed;
+	right: 0;
+	bottom: 3%;
+	z-index: 10;
+}
+
+/* Quote block styling */
+
+.backquote, blockquote {
+	background: red;
+}
+
+.backquote, blockquote {
+	background: #f5f5f5;
+	color: #000;
+}
+
+.quote__header {
+	color: #000000;
+	background: #f5f5f5;
+}
+
+.quote {
+	background: #f5f5f5;
+}
+
+/* LHS nav styling */
+
+.secondary-navigation__item {
+	font-weight: normal;
+	}
+	
+/* Pods styling */
+
+.box-info__heading {
+	font-size: 1.4875rem;
+}
+
+.box-info__heading a {
+	color: #000;
+	font-weight: normal;
+}
+
+.box-info__heading a:hover, .box-info__heading a:active, .box-info__heading a:focus {
+	color: #b31f0e;
+}
+
+
+/* Top level nav styling */
+
+.level-2 li a {
+	font-weight: normal;
+}
+
+.level-2 li a:hover {
+	color: #b31f0e;
+}
+
+.backquote__quote, blockquote__quote {
+	font-weight: normal;
+}
+
+/* Course landing box styling */
+
+.box-info--linked .box-info__heading {
+	font-weight: normal;
+}
+
+/* Course template styling */
+
+.banner .course-study-link {
+	color: white;
+	font-size: 1rem;
+	margin-left: 0;
+	border-bottom: 1px solid #4a4a4a;
+}
+
+    .section-listing.sticky {
+      position: fixed;
+      top: 0;
+      z-index: 99;
+      width: 74.5%;
+    }
+
+/* Hero image banner fix for tablets/mobiles */
+
+@media only screen and (max-width: 768px) {
+
+    .banner.image-only {
+    	background-size: contain;
+    	background-color: #fff !important;
+    }
+    
+}
